@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+// Palette: forest green (matches the profile photo) + warm accent
+$primary:   #1f5f4a;
+$secondary: #5b6b63;
+$success:   #2e8b57;
+$info:      #2a7f8e;
+$link-color: #1a7a5c;
+$body-color: #22302a;
+$headings-color: #173f33;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap');
+$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, serif;
+$font-size-root: 17px;
+
+$navbar-bg: $primary;
+$footer-bg: #f4f7f5;
+
+/*-- scss:rules --*/
+.navbar-brand, .navbar-title { font-family: $headings-font-family; font-weight: 700; }
+
+h1.title { color: $headings-color; }
+h2 { border-bottom: 2px solid #dfe9e4; padding-bottom: .25rem; margin-top: 2rem; }
+
+// Publications
+.pub { margin: 0 0 .9rem 0; padding-left: 2.6rem; text-indent: -2.6rem; line-height: 1.45; }
+.pub-num { display: inline-block; width: 2.6rem; text-indent: 0; color: $secondary; font-weight: 600; }
+.pub-count { font-size: 1.05rem; color: $secondary; }
+
+// Cards used on the Research / Software / Collaboration pages
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; margin: 1.2rem 0 2rem; }
+.info-card {
+  border: 1px solid #dfe9e4; border-left: 5px solid $primary; border-radius: 8px;
+  padding: 1rem 1.2rem; background: #fbfdfc;
+  h3, h4 { margin-top: 0; border: none; }
+  p:last-child { margin-bottom: 0; }
+}
+.sw-badge {
+  display: inline-block; font-size: .78rem; padding: .1rem .5rem; margin-right: .3rem;
+  border-radius: 999px; background: #e3efe9; color: $primary; font-weight: 600;
+}
+
+// Homepage (about page) tweaks
+.quarto-about-trestles .about-entity .about-image { border: 4px solid #e3efe9; }
+.about-links .about-link { border-color: $primary !important; color: $primary !important; }
+.about-links .about-link:hover { background: $primary !important; color: #fff !important; }
+
+.news-list li { margin-bottom: .4rem; }
+
+table { font-size: .93rem; }

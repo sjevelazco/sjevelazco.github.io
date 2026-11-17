@@ -1,0 +1,66 @@
+---
+title: "Software"
+subtitle: "Open-source tools for biodiversity data and species distribution modelling"
+---
+
+I believe good science needs good, open tools. These are the packages I have created or co-developed. Feedback, issues and pull requests are always welcome!
+
+::: {.card-grid}
+
+::: {.info-card}
+### flexsdm
+[R]{.sw-badge} [Lead developer]{.sw-badge}
+
+A flexible and comprehensive workflow for species distribution modelling: data pre-processing (occurrence filtering, calibration areas, pseudo-absences/background, data partitioning), model fitting and tuning, ensembles, evaluation, prediction, and post-processing (e.g., overprediction correction, extrapolation metrics).
+
+[Website](https://sjevelazco.github.io/flexsdm/) · [GitHub](https://github.com/sjevelazco/flexsdm) · [Paper](https://doi.org/10.1111/2041-210X.13874)
+:::
+
+::: {.info-card}
+### adm
+[R]{.sw-badge} [Co-developer]{.sw-badge}
+
+Tools to build **abundance-based species distribution models**: data preparation, model tuning and fitting with multiple algorithms (including deep neural networks), validation, spatial prediction, and partial dependence plots.
+
+[Website](https://sjevelazco.github.io/adm/) · [GitHub](https://github.com/sjevelazco/adm) · [Paper](https://doi.org/10.1111/2041-210X.70074)
+:::
+
+::: {.info-card}
+### bdc
+[R]{.sw-badge} [Co-developer]{.sw-badge} [GBIF Ebbe Nielsen 2022]{.sw-badge}
+
+A toolkit for **standardizing, integrating and cleaning biodiversity data** — from merging heterogeneous databases and harmonizing taxonomy to flagging spatial and temporal errors.
+
+[Website](https://brunobrr.github.io/bdc/) · [GitHub](https://github.com/brunobrr/bdc) · [Paper](https://doi.org/10.1111/2041-210X.13868)
+:::
+
+::: {.info-card}
+### ENMTML
+[R]{.sw-badge} [Co-developer]{.sw-badge}
+
+A package for a straightforward construction of complex ecological niche models, integrating data processing, many algorithms, ensembles, and projections in a single function.
+
+[GitHub](https://github.com/andrefaa/ENMTML) · [Paper](https://doi.org/10.1016/j.envsoft.2019.104615)
+:::
+
+::: {.info-card}
+### pyflexsdm
+[Python]{.sw-badge} [Lead developer]{.sw-badge} [In development]{.sw-badge}
+
+A Python implementation of the *flexsdm* workflow for species distribution modelling, built on the scientific Python geospatial stack. Coming soon!
+:::
+
+::: {.info-card}
+### MSDM
+[R]{.sw-badge} [Developer]{.sw-badge}
+
+Methods to reduce overprediction of species distribution models by incorporating spatial constraints, *a priori* and *a posteriori*.
+
+[GitHub](https://github.com/sjevelazco/MSDM/) · [Paper](https://doi.org/10.1016/j.ecolmodel.2020.109180)
+:::
+
+:::
+
+## Workshops on these tools
+
+I regularly teach hands-on workshops on *flexsdm* and *adm* (e.g., ESA 2025, ATBC 2026). See [Teaching & Mentoring](teaching.qmd).

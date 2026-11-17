@@ -1,0 +1,81 @@
+---
+title: "Collaboration"
+---
+
+Science is a collective effort. These are the graduate programs I have taught or supervised in, and the mentors and colleagues who have shaped my path.
+
+## Graduate programs
+
+<!-- Programs where I taught courses and/or supervised students (from my CV). -->
+
+| Program | Institution | Country | Involvement |
+|:--------|:------------|:--------|:------------|
+| Graduate Program in Neotropical Biodiversity (PPGBN) | Federal University of Latin American Integration (UNILA) | Brazil | Affiliate professor (2021–2025), M.Sc. advisor, courses |
+| Graduate Program in Ecology | Federal University of Pará (UFPA) | Brazil | Ph.D. and M.Sc. co-advisor, courses |
+| Graduate Program in Biodiversity and Conservation | Federal University of Pará (UFPA), Altamira | Brazil | Courses |
+| Graduate Program in Plant Biology | State University of Campinas (UNICAMP) | Brazil | Ph.D. co-advisor, courses |
+| Graduate Program in Ecology | State University of Campinas (UNICAMP) | Brazil | M.Sc. co-advisor |
+| Graduate Program in Forestry Engineering | Federal University of Paraná (UFPR) | Brazil | Ph.D. and M.Sc. co-advisor, courses |
+| Graduate Program in Natural Resources of the Cerrado | State University of Goiás (UEG) | Brazil | M.Sc. co-advisor |
+| Graduate Program in Plant Production | Federal University of Vales do Jequitinhonha e Mucuri (UFVJM) | Brazil | Ph.D. co-advisor |
+| Graduate Program in Forestry Engineering | Faculty of Forestry Sciences, National University of Misiones (FCF-UNaM) | Argentina | Courses |
+| Faculty of Exact and Natural Sciences | National University of Mar del Plata (UNMDP) | Argentina | Courses |
+| Graduate courses | University of Buenos Aires (UBA) | Argentina | Courses |
+| College of Engineering, Science & Technology | Fiji National University | Fiji | M.Sc. co-advisor |
+
+## Mentors
+
+::: {.card-grid}
+
+::: {.info-card}
+#### Janet Franklin
+Postdoctoral supervisor — University of California, Riverside (2021–2022)
+:::
+
+::: {.info-card}
+#### Paulo De Marco Jr.
+Postdoctoral supervisor (2018–2021) and Ph.D. co-advisor
+:::
+
+::: {.info-card}
+#### Héctor Alejandro Keller
+Postdoctoral co-supervisor (2018–2021) and M.Sc. co-advisor
+:::
+
+::: {.info-card}
+#### Franklin Galvão
+Ph.D. and M.Sc. advisor — Federal University of Paraná (2012–2018)
+:::
+
+::: {.info-card}
+#### Fabricio Villalobos
+Ph.D. co-advisor
+:::
+
+::: {.info-card}
+#### Patricia Rocha & Fernando Niella
+Undergraduate thesis advisors — National University of Misiones
+:::
+
+:::
+
+<!-- TIP: turn a name into a link like this:  #### [Janet Franklin](https://their-website) -->
+
+## Frequent collaborators
+
+<!-- Edit freely: add/remove names and links. Selected from frequent co-authors in my CV. -->
+
+- **Helen M. Regan, M. Brooke Rose, Gabriel A. Backus & Alexandra D. Syphard** — climate change, fire, and plant vulnerability in California.
+- **Damaris Zurell, Greta Bocedi, Mark C. Urban & the sModelProBio / EcoCode teams** — biodiversity model intercomparisons for science and policy.
+- **Bruno R. Ribeiro, Karlo Guidoni-Martins, Geiziane Tessarolo & Rafael Loyola** — biodiversity data cleaning and the *bdc* package.
+- **André F. A. Andrade** — *ENMTML*, *flexsdm*, and niche modelling methods.
+- **Admir C. de Oliveira Junior** — abundance-based distribution models and the *adm* package.
+- **Christopher T. Blum, Marcos B. Carlucci & Pablo M. Hoffmann** — threatened flora and restoration in southern Brazil.
+- **Lía Montti, Norman A. Bedrij & colleagues at IBS** — forests, invasions, and conservation planning in Misiones and the Atlantic Forest.
+
+## Networks & organizations
+
+- [EcoCode working group](https://geobon.org/ecocode-modelling-life-on-earth/) (GEO BON) — co-leader
+- [Center for Open Geographical Science (COGS)](https://cogs.sdsu.edu/), San Diego State University
+- [Subtropical Biology Institute (IBS)](https://ibs.conicet.gov.ar/), CONICET – UNaM
+- [Sociedade Chauá](https://www.sociedadechaua.org/en/quem-somos)

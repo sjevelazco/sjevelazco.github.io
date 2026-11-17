@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs          # rendered site goes to docs/ (GitHub Pages can serve this folder)
+  render:
+    - "*.qmd"
+  resources:
+    - files/
+    - images/
+
+execute:
+  freeze: auto              # only re-run R code when a page's source changes
+  echo: false
+  warning: false
+  message: false
+
+website:
+  title: "Santiago J. E. Velazco"
+  description: "Conservation biogeography, species distribution modelling and open-source tools for biodiversity science."
+  site-url: "https://sjevelazco.github.io"
+  repo-url: "https://github.com/sjevelazco/sjevelazco.github.io"
+  favicon: images/favicon.png
+  page-navigation: false
+  search: true
+  open-graph: true
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: bio.qmd
+        text: Bio
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: teaching.qmd
+        text: Teaching & Mentoring
+      - href: collaboration.qmd
+        text: Collaboration
+    right:
+      - icon: github
+        href: https://github.com/sjevelazco
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:sjevelazco@gmail.com
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Santiago José Elías Velazco"
+    right: "Built with [Quarto](https://quarto.org) and R"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/custom.scss]
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    link-external-newwindow: true
+    lang: en

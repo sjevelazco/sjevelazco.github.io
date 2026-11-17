@@ -1,0 +1,60 @@
+---
+title: "Santiago José Elías Velazco"
+subtitle: "Conservation biogeographer · Species distribution modeller · Open-source software developer"
+toc: false
+image: images/profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 17em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:sjevelazco@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/sjevelazco
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/   # TODO: replace with your Google Scholar profile URL
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/            # TODO: replace with your ORCID URL
+    - icon: file-earmark-pdf
+      text: CV
+      href: files/CV_Velazco_Santiago.pdf
+---
+
+```{r}
+#| include: false
+source("R/site_functions.R")
+```
+
+Hi! I am a **Research Scientist** at the [Center for Open Geographical Science (COGS)](https://cogs.sdsu.edu/), San Diego State University (USA), and an **Assistant Researcher** at the [Subtropical Biology Institute (IBS, CONICET–UNaM)](https://ibs.conicet.gov.ar/velazco-santiago/), Argentina.
+
+My work sits at the intersection of **conservation ecology, biogeography, and spatial modelling**. I develop and apply species distribution models to understand how climate change, land use and fire shape biodiversity, and to help decide *where* and *how* to protect it. I also build open-source tools —such as [flexsdm](https://sjevelazco.github.io/flexsdm/), [adm](https://sjevelazco.github.io/adm/) and [bdc](https://brunobrr.github.io/bdc/)— so that robust biodiversity modelling is accessible to everyone.
+
+I have taught and mentored students in graduate programs across Argentina, Brazil, and beyond, and I co-lead the [EcoCode](https://geobon.org/ecocode-modelling-life-on-earth/) working group on biodiversity modelling.
+
+::: {.callout-note appearance="simple" icon=false}
+**Research interests:** species distribution & abundance models · model extrapolation and uncertainty · protected areas and conservation planning · global change biology · Neotropical flora · open science & reproducible software
+:::
+
+## Selected publications
+
+```{r}
+#| output: asis
+print_featured(n = 6)
+```
+
+[See all `r n_publications()` publications →](publications.qmd)
+
+## Latest news
+
+<!-- Add short news items here (newest first). Example format: -->
+::: {.news-list}
+- **2026** — New papers in *Nature Ecology & Evolution* and *Nature Reviews Biodiversity* on biodiversity model intercomparisons.
+- **2026** — Workshop on *flexsdm* and *adm* at the Association for Tropical Biology and Conservation meeting (Xishuangbanna, China).
+- **2025** — *adm*, an R package for abundance-based species distribution models, published in *Methods in Ecology and Evolution*.
+- **2022** — The *bdc* team won the GBIF Ebbe Nielsen Challenge.
+:::

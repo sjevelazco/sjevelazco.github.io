@@ -1,0 +1,78 @@
+---
+title: "Research"
+---
+
+My research asks **where species live, how that will change, and how we can use that knowledge to conserve them**. I combine field-based knowledge of Neotropical vegetation with spatial modelling, data science, and software development.
+
+## Research lines
+
+::: {.card-grid}
+
+::: {.info-card}
+### Species distribution models: methods & best practices
+How far can a model be extrapolated? How do we deal with overprediction, temporal mismatches or abundance data? I develop and test methods that make species distribution models more reliable (e.g., the *Shape* extrapolation metric, overprediction corrections, abundance-based models).
+
+[Velazco et al. 2023 *Ecography*](https://doi.org/10.1111/ecog.06992) · [Velazco et al. 2020 *Biol. Conserv.*](https://doi.org/10.1016/j.biocon.2020.108822)
+:::
+
+::: {.info-card}
+### Conservation biogeography & protected areas
+I evaluate how well protected areas and other area-based measures safeguard species, phylogenetic diversity, and the uses people make of biodiversity, and I identify priority areas — including across national borders.
+
+[Velazco et al. 2023 *Biol. Conserv.*](https://doi.org/10.1016/j.biocon.2023.110194) · [Velazco et al. 2022 *Biol. Conserv.*](https://doi.org/10.1016/j.biocon.2022.109525)
+:::
+
+::: {.info-card}
+### Global change: climate, land use & fire
+I forecast how climate change, land-use change, and shifting fire regimes affect plants and animals — from the Cerrado flora and Neotropical palms to plants in the California Floristic Province.
+
+[Velazco et al. 2019 *Divers. Distrib.*](https://doi.org/10.1111/ddi.12886) · [Syphard et al. 2024 *PNAS*](https://doi.org/10.1073/pnas.2310076121)
+:::
+
+::: {.info-card}
+### Biodiversity models for policy
+Through iDiv's sModelProBio and the EcoCode working group, I help coordinate model intercomparisons that inform the Global Biodiversity Framework.
+
+[Zurell et al. 2025 *PNAS*](https://doi.org/10.1073/pnas.2501695122) · [Urban et al. 2026 *Nat. Ecol. Evol.*](https://doi.org/10.1038/s41559-026-03123-0)
+:::
+
+::: {.info-card}
+### Open-source tools for biodiversity science
+I write R (and soon Python) packages so that cleaning biodiversity data and building species distribution models is transparent, reproducible and accessible.
+
+[See my software →](software.qmd)
+:::
+
+::: {.info-card}
+### Neotropical forests & flora
+My roots are in forest engineering: floristics, structure, and dynamics of the Atlantic Forest, Araucaria forest, and savannas of Misiones and southern Brazil.
+
+[Velazco et al. 2018 *Rodriguésia*](http://dx.doi.org/10.1590/2175-7860201869206)
+:::
+
+:::
+
+## Research projects
+
+| Period | Project | Role |
+|:-------|:--------|:-----|
+| 2025 – 2028 | Integrated environmental monitoring and potentials of Brazil's largest remnant of Atlantic Forest in interior Brazil – Iguaçu National Park | Researcher |
+| 2025 – 2027 | sModelProBio: Modelling the way forward for protecting biodiversity during climate change (iDiv Synthesis Centre, Germany) | Researcher |
+| 2024 – 2026 | Efficiency of the territorial land-use planning of native forests and natural protected areas for the conservation of Argentina's biodiversity | **Principal Investigator** |
+| 2023 – 2026 | Dynamic models as tools for real biodiversity conservation problems | Researcher |
+| 2023 – 2025 | RAMFA – Argentine Network for the Monitoring of Roadkill | Participant |
+| 2021 – 2024 | Debarking of pine trees in forest plantations in Misiones by caí monkeys (*Sapajus nigritus*): causes, risk prediction and mitigation | **Co-Principal Investigator** |
+| 2020 – 2022 | Living space for biodiversity: applying Liebig's Law of the Minimum to the biogeography of global change | Researcher |
+| 2018 – 2021 | Endemic palm trees of the altitude fields of southern Brazil: occurrence models and emergency actions for their conservation | Researcher |
+| 2018 – 2019 | Conservation and domestication of native species of forest and industrial interest in Misiones | Researcher |
+| 2017 – 2021 | Climate adaptation and conservation of Brazilian biodiversity based on regional climate models | Researcher |
+| 2012 – 2014 | Conservation of rare and endangered species of the Araucaria Forest: record of mother trees | Researcher |
+| 2006 – 2010 | Several projects on *in vitro* propagation and conservation of native woody species, orchids, and medicinal plants of Misiones | Researcher |
+
+## Selected talks
+
+- **2026** — Invited session: *Open-Source Spatial Data Science: Research*. AAG Annual Meeting, San Francisco, USA.
+- **2025** — *Empowering abundance-based species distribution models with adm*. Living Data 2025, Bogotá, Colombia.
+- **2025** — *Leveraging abundance-based distribution models with the adm R package*. ATBC Annual Meeting, Oaxaca, Mexico; IALE–North America, Raleigh, USA.
+- **2022** — *How far can I extrapolate my species distribution model? Comparing established and novel methods*. International Biogeography Society, Vancouver, Canada.
+- **2021** — *Olhando além das fronteiras: diversidade da flora do cerrado entre limites nacionais*. 71º Congresso Nacional de Botânica, Goiânia, Brazil.

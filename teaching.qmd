@@ -1,0 +1,59 @@
+---
+title: "Teaching & Mentoring"
+---
+
+```{r}
+#| include: false
+source("R/site_functions.R")
+```
+
+## Philosophy
+
+I see teaching and mentoring as a shared construction of knowledge rather than a one-way transfer. Students bring their own experiences, questions and realities to the classroom, and learning works best when it starts from them and leads to critical, independent thinking.
+
+In my group I favour **teamwork over individual competition**: students help each other and draw on each person's different abilities. We meet weekly or biweekly to discuss progress, calibrate ideas and solve problems together, and I give the most support to those who need it most. Mentoring is, for me, the best way to build critical reasoning, organization and collaboration skills — and to explore new ideas.
+
+A core principle of my mentoring is that **theses and dissertations should become peer-reviewed papers**. Around 90% of my mentees have published their thesis work, which strengthens their careers, benefits their graduate programs, and returns the results of publicly funded research to society.
+
+I have taught and mentored in more than six graduate and undergraduate programs, across very different social and educational contexts in Argentina, Brazil, and beyond.
+
+## Graduate courses
+
+```{r}
+#| output: asis
+print_courses("graduate")
+```
+
+## Workshops & short courses
+
+```{r}
+#| output: asis
+print_courses("workshop")
+```
+
+## Mentoring
+
+### Ph.D. students
+
+```{r}
+#| output: asis
+print_mentees("PhD")
+```
+
+### M.Sc. students
+
+```{r}
+#| output: asis
+print_mentees("MSc")
+```
+
+### Undergraduate students
+
+```{r}
+#| output: asis
+print_mentees("Undergraduate")
+```
+
+::: {.callout-tip appearance="simple"}
+**Prospective students:** if you are interested in species distribution modelling, conservation biogeography or biodiversity software, feel free to [email me](mailto:sjevelazco@gmail.com) with a short description of your interests and your CV.
+:::
