@@ -16,10 +16,13 @@ about:
       href: https://github.com/sjevelazco
     - icon: mortarboard
       text: Google Scholar
-      href: https://scholar.google.com/   # TODO: replace with your Google Scholar profile URL
+      href: https://scholar.google.com/citations?user=UrbaalIAAAAJ&hl=en-EN
+    - icon: journal-richtext
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Santiago_Velazco3
     - icon: person-badge
       text: ORCID
-      href: https://orcid.org/            # TODO: replace with your ORCID URL
+      href: https://orcid.org/0000-0002-7527-0967
     - icon: file-earmark-pdf
       text: CV
       href: files/CV_Velazco_Santiago.pdf
@@ -36,8 +39,8 @@ My work sits at the intersection of **conservation ecology, biogeography, and sp
 
 I have taught and mentored students in graduate programs across Argentina, Brazil, and beyond, and I co-lead the [EcoCode](https://geobon.org/ecocode-modelling-life-on-earth/) working group on biodiversity modelling.
 
-::: {.callout-note appearance="simple" icon=false}
-**Research interests:** species distribution & abundance models · model extrapolation and uncertainty · protected areas and conservation planning · global change biology · Neotropical flora · open science & reproducible software
+::: {.callout-note appearance="simple" icon="false"}
+**Research interests:** species distribution & abundance models · model extrapolation and uncertainty · protected areas and conservation planning · global change biology · Neotropical biodiversity · open science & reproducible software
 :::
 
 ## Selected publications
@@ -52,7 +55,8 @@ print_featured(n = 6)
 ## Latest news
 
 <!-- Add short news items here (newest first). Example format: -->
-::: {.news-list}
+
+::: news-list
 - **2026** — New papers in *Nature Ecology & Evolution* and *Nature Reviews Biodiversity* on biodiversity model intercomparisons.
 - **2026** — Workshop on *flexsdm* and *adm* at the Association for Tropical Biology and Conservation meeting (Xishuangbanna, China).
 - **2025** — *adm*, an R package for abundance-based species distribution models, published in *Methods in Ecology and Evolution*.

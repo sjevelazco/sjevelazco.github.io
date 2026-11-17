@@ -8,15 +8,16 @@ toc-depth: 2
 source("R/site_functions.R")
 ```
 
-[**`r n_publications()`** peer-reviewed articles. My name is in **bold**. For citation metrics see my [Google Scholar](https://scholar.google.com/) profile.]{.pub-count}
-<!-- TODO: replace the Google Scholar link above with your profile URL -->
+[**`r n_publications()`** peer-reviewed articles. My name is in **bold**. For citation metrics see my [Google Scholar](https://scholar.google.com/citations?user=UrbaalIAAAAJ&hl=en-EN) profile.]{.pub-count}
 
+```{=html}
 <!--
   HOW TO ADD A PAPER: open data/publications.csv and add a row:
     year, status ("published" or "under_review"), citation (full reference text),
     doi (without https://doi.org/), url (only if there is no DOI), featured (TRUE/FALSE)
   or, from R:  source("R/manage_site.R"); add_publication(...)
 -->
+```
 
 ## Manuscripts under review
 

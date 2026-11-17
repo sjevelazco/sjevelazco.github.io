@@ -7,3 +7,9 @@
 *_files/libs/
 .DS_Store
 Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb
+.Rproj.user
+.httr-oauth
+.quarto
