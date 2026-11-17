@@ -54,7 +54,7 @@ build_site()     # renders everything into docs/
 
 Text pages (Bio, Research, Software, Collaboration) are plain Markdown inside the `.qmd` files — just edit and save.
 
-## Publishing (when you are ready — not done yet)
+## Publishing (when you are ready)
 
 1. Create a **public** GitHub repository named exactly `sjevelazco.github.io`.
 2. Push this folder:
@@ -65,13 +65,3 @@ Text pages (Bio, Research, Software, Collaboration) are plain Markdown inside th
 3. Run `build_site()` in R, then commit and push the `docs/` folder (and `_freeze/`).
 4. On GitHub: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `/docs`**.
 
-The site will then be at <https://sjevelazco.github.io>. Your existing package websites
-(e.g. `sjevelazco.github.io/flexsdm`, `sjevelazco.github.io/adm`) keep working, because GitHub serves
-each project repository under its own sub-path. Just avoid creating folders named `flexsdm` or `adm` here.
-
-## To-do before publishing
-
-- [ ] Add your Google Scholar and ORCID links (`index.qmd`, `publications.qmd`).
-- [ ] Review the "Latest news" items on the homepage.
-- [ ] Optionally add links to mentors' and collaborators' webpages in `collaboration.qmd`.
-- [ ] Choose which papers appear on the homepage (`featured` column in `data/publications.csv`).
