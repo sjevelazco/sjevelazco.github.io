@@ -59,3 +59,8 @@ format:
     smooth-scroll: true
     link-external-newwindow: true
     lang: en
+
+format:
+  html:
+    include-in-header:
+      - google-verification.html
