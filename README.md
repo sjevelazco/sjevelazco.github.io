@@ -52,16 +52,3 @@ add_mentee(name = "Student Name", level = "MSc", role = "Advisor",
 build_site()     # renders everything into docs/
 ```
 
-Text pages (Bio, Research, Software, Collaboration) are plain Markdown inside the `.qmd` files — just edit and save.
-
-## Publishing (when you are ready)
-
-1. Create a **public** GitHub repository named exactly `sjevelazco.github.io`.
-2. Push this folder:
-   ```bash
-   git remote add origin https://github.com/sjevelazco/sjevelazco.github.io.git
-   git push -u origin main
-   ```
-3. Run `build_site()` in R, then commit and push the `docs/` folder (and `_freeze/`).
-4. On GitHub: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `/docs`**.
-
