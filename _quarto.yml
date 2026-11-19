@@ -6,6 +6,7 @@ project:
   resources:
     - files/
     - images/
+    - googlebe3256cf67d92c55.html   # Google Search Console verification file
 
 execute:
   freeze: auto              # only re-run R code when a page's source changes
@@ -59,8 +60,3 @@ format:
     smooth-scroll: true
     link-external-newwindow: true
     lang: en
-
-format:
-  html:
-    include-in-header:
-      - google-verification.html
